@@ -13,8 +13,9 @@ func RandomInRange(min, max int) int {
 }
 
 func main() {
-	silabas := []string{"a", "i", "u", "e", "o", "ka", "ki", "ku", "ke", "ko", "ba", "bi", "bu", "be", "bo",
-		"sa", "shi", "su", "se", "so", "ta", "tchi", "tsu", "te", "to", "ra", "ri", "ru", "re", "ro"}
+	silabas := []string{"a", "i", "u", "e", "o", "ka", "ki", "ku", "ke", "ko", "ha", "hi", "hu", "he", "ho", "ba", "bi", "bu", "be", "bo",
+		"sa", "shi", "su", "se", "so", "ta", "tchi", "tsu", "te", "to", "ra", "ri", "ru", "re", "ro", "ma", "mi", "mu", "me", "mo", "na", 
+		"ni", "nu", "ne", "no", "za", "zi", "zu", "ze", "zo"}
 	num_silabas := RandomInRange(2, 5)
 	var buffer bytes.Buffer
 	for i := 0; i < num_silabas; i++ {
